@@ -1,33 +1,23 @@
 {
-	"name": "language-pascal",
-	"displayName": "Pascal magic",
+	"name": "language-object-pascal",
+	"displayName": "ObjectPascal magic",
 	"description": "High-quality Pascal highlighting",
 	"version": "0.1.6",
-	"publisher": "theangryepicbanana",
+	"publisher": "andyyu2004",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ALANVF/vscode-pascal-magic.git"
+		"url": "https://github.com/andyyu2004/vscode-pascal-magic.git"
 	},
 	"engines": {
 		"vscode": "^1.47.3"
 	},
-	"categories": [
-		"Programming Languages",
-		"Snippets"
-	],
-	"keywords": [
-		"pascal",
-		"free pascal",
-		"object pascal",
-		"delphi",
-		"fpc",
-		"objfpc"
-	],
+	"categories": ["Programming Languages", "Snippets"],
+	"keywords": ["pascal", "free pascal", "object pascal", "delphi", "fpc", "objfpc"],
 	"contributes": {
 		"languages": [
 			{
-				"id": "pascal",
+				"id": "objectpascal",
 				"aliases": [
 					"Pascal",
 					"Object Pascal",
@@ -40,28 +30,20 @@
 					"fpc",
 					"delphi"
 				],
-				"extensions": [
-					".pas",
-					".pp",
-					".dfm",
-					".dpr",
-					".dpk",
-					".lfm",
-					".lpr"
-				],
+				"extensions": [".pas", ".pp", ".dfm", ".dpr", ".dpk", ".lfm", ".lpr"],
 				"configuration": "./language-configuration.json"
 			}
 		],
 		"grammars": [
 			{
-				"language": "pascal",
+				"language": "objectpascal",
 				"scopeName": "source.pascal",
 				"path": "./syntaxes/pascal.json"
 			}
 		],
 		"snippets": [
 			{
-				"language": "pascal",
+				"language": "objectpascal",
 				"path": "./snippets/pascal.json"
 			}
 		]
